@@ -2,7 +2,8 @@ var playlist = {
 
   'Billy Joel': 'PianoMan',
   Sinatra: 'New york'
-};
+}
+
 
 function updatePlaylist(playlist, artist, song) {
 
@@ -13,5 +14,5 @@ function updatePlaylist(playlist, artist, song) {
 function removeFromPlaylist(playlist, artist) {
   delete playlist[artist]
 
-return playlist};
+return playlist
 }
